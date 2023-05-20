@@ -1,0 +1,384 @@
+html{
+	 scroll-behavior: smooth;
+}
+body{
+	background-color:#323232;
+	padding:0;
+	margin:0;
+
+}
+/*header content*/
+.head{
+	position:sticky;
+	width:100%;
+	top:0;
+	bottom:0;
+	left:0;
+	z-index:100;
+	background-color:rgba(0,0,0,0.6);
+	padding:2px;
+}
+	
+.head li{
+	display:inline-block;
+		margin-bottom:0;
+		padding-bottom:0;
+}
+.head h1{
+	font-size:375%;
+	text-align:left;
+	margin-top:0;
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:0;
+	padding-bottom:0;
+	font-family:gill sans, Arial, serif;
+	color:#FFF0D9;
+}
+.sub{
+	color: #5CB3C9;
+	padding: 16px 30px;
+	text-align: center;
+	text-decoration: none;
+	display:block;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius:100px;
+	font-family:Trebuchet MS, Arial, serif;
+	background-color:transparent;
+	border-color:#557976;
+	margin-left: 500px;
+}
+.sub:hover{
+	background-color:#557976;
+	color:white;
+	transition-duration:0.2s;
+}
+.head p{
+	font-size:75%;
+	margin-top:0;
+	margin-left:5%;
+	margin-right:5%;
+	font-family:trebuchet ms, Arial, serif;
+	color:#5CB3C9;
+	margin-bottom:0;
+	padding-bottom:0;}
+	
+/*dropdown menu */
+	
+.uwagan{
+	display:inline
+}
+.nav li a, .drop{
+	display:inline-block;
+	color:#4790A2	;
+	font-family:trebuchet ms,arial,serif;
+	font-size:120%;
+	text-decoration:none;
+	margin-bottom:0;
+	padding:10px;
+	margin:2px;
+	border-style: solid;
+	border-color: #4790A2;
+	border-radius:12px;
+}
+.drop:hover {
+	background-color:#24393C;
+	color:#4790A2;
+	transition-duration:0.2s;	
+}
+li.drpdwn{
+	display:inline-block;
+	padding-bottom:0;
+	border-radius:15px;
+}
+.content{
+	display:none;
+	position:absolute;
+	min-width: 100px;
+	z-index:1;
+	font-family:trebuchet ms,arial,serif;
+	font-size:110%;
+	padding-bottom:0;
+	
+}
+.content a{
+	color:#4790A2;
+	text-decoration:none;
+	display:block;
+	font-family:trebuchet ms,arial,serif;
+	font-size:110%;
+	padding:10px;
+}
+.content a:hover{
+	background-color:#24393C;
+	color:#4790A2;
+	transition-duration:0.2s;
+	border-radius:15px;
+}
+.drpdwn:hover .content{
+	display:block;
+	transition-duration:0.2s;
+}
+
+/*intro*/
+.intro{
+	background-image:url("1giammarco-boscaro-zeH-ljawHtg-unsplash.jpg");
+	background-repeat:no-repeat;
+	min-height:1280px;
+	min-width:100%;
+	padding-top:0;
+	margin-top:0;
+	margin-bottom:0;
+}
+.intro p{
+	color:#FFF0D9;
+	font-family:arial black, arial, serif;
+	font-size:150px;
+	margin-top:0;
+	padding-top:500px;
+	padding-left:10px;	
+	margin-bottom:10px;
+}
+.intro h3{
+	color:#696155;
+	font-family:arial black, arial, serif;
+	font-size:110px;
+	padding-right:10px;	
+	text-align:right;
+}
+/*page body*/
+	/*editor's note header*/
+#onnentwo{
+		float:left;
+	}
+.texthead{
+	color:#4790A2;
+	font-family:arial black, arial, serif;
+	padding-left:45px;
+	font-size:65px;
+	margin-bottom:10px;
+}
+.subt{
+	color:#636676;
+	font-family:trebuchet ms,arial,serif;
+	padding-left:800px;
+	margin-top:0;
+	margin-bottom:10px;
+	font-size:40px;
+}
+	/*editors note*/
+#text	p{
+	margin-left:70px;
+	padding-right:35%;
+	text-align:left;
+	color:#FFF0D9;
+	font-family:trebuchet ms, Arial, serif;
+	font-size:25px;
+	margin-bottom:100px;
+}
+#spotlight {
+	height:400;
+	width: 370px; 
+	position: sticky;
+	margin-right: 30px;
+	margin-left:10px;
+	bottom:30px;
+	float:left;
+	overflow-x: hidden; 
+	overflow-y: hidden; 
+	margin-top:150px;
+	padding-top: 20px;
+	border-radius:50px;
+	border-style: solid;
+	border-color: #4790A2;
+	bottom:150px;
+}
+#spotlight a{
+	color:white;
+}
+#spotlight a:hover{
+	color: #557976;
+}
+#spotlight a:visited{
+	font-weight:bold;
+	color:gray;
+}
+#spotlight:hover{
+	background-color:#4790A2;
+	transition-duration:0.2s;
+}
+#spotlight h1{
+	font-family:trebuchet ms, Arial, serif;
+	color:#636676;
+}
+#spotlight h1:hover{
+	color:white;
+}
+#spotlight img{
+	height:40%;
+	width:40%;
+}
+#spotlight p{
+	color:white;
+	font-size:20px;
+	font-family:trebuchet ms, Arial, serif;
+	font-weight:thin;
+	padding: 5px;
+}
+.intice{
+	color:#FFF0D9;
+	font-family:arial black, arial, serif;
+	padding-left:45px;
+	font-size:65px;
+	margin-bottom:10px;
+}
+#newsletter{
+	margin-top:300px;
+}
+#newsletter img{
+	width:600px;
+	height:500px;
+	margin-left:30px;
+	margin-bottom:0px;
+}
+.adtext{
+	color:#4790A2;
+	font-family:trebuchet ms, Arial, serif;
+	font-weight:bold;
+	margin-top:0px;
+	margin-bottom:5px;
+	margin-left:5px;
+	font-size:40px;
+}
+.signup p{
+	color:#557976;
+	font-family:trebuchet ms, Arial, serif;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:5px;
+	margin-left:5px;
+	font-size:25px;
+}
+.signup p:hover{
+	text-decoration:underline;
+}
+.signup fieldset{
+	border-style:none;
+}
+.signup label{
+	color:white;
+	background-color:#4790A2;
+	font-family:trebuchet ms,arial,serif;
+	font-size:25px;
+	padding:10px;
+	border-radius:20px;
+}
+.signup #name{
+	border-radius:20px;
+	border-style:none;
+	background-color:#636676;
+	color:white;
+	font-family:trebuchet ms,arial,serif;
+	font-size:25px;
+	padding:10px;
+}
+.signup .button{
+	border-radius:20px;
+	background-color:#3D5B60;
+	color:white;
+	font-family:trebuchet ms,arial,serif;
+	font-size:25px;
+	padding-right:30px;	
+	padding-left:30px;
+	border-style: solid;
+	border-color:#3D5B60;
+}
+.button:hover{
+	background-color:white;
+	color:#3D5B60;
+	border-style: solid;
+	border-color:#3D5B60;
+	transition-duration:0.2s;
+}
+
+.t-stuff{
+	float:left;
+	margin:10px;
+	
+}
+.t-stuff h1{
+	font-family:arial black, arial, serif;
+	color:#4790A2;
+	font-size:80px;
+	margin:2px;
+	
+}
+.t-stuff h3{
+	font-family:trebuchet ms,arial,serif;
+	color:#636676;
+	font-size:60px;
+}
+.t-stuff h5{
+	font-family:trebuchet ms,arial,serif;
+	color:#454853;
+	font-size:40px;
+}
+
+.plans {
+	float:left;
+	background-color:#EBD8BB;
+	padding-left:100px;
+	padding-right:100px;
+	border-radius:40px;
+	margin-left:100px;
+	font-family:tahoma, arial, serif;
+	color:black;
+	
+}
+.plans h1{
+	font-size:30px;
+}
+.plans h2{
+	font-size:25px;
+	text-decoration:underline;
+	padding-bottom:35px;
+}
+.plans h2:hover{
+	color:gray;	
+}
+.plans li{
+	font-size:20px;
+	padding-bottom:70px;
+}
+.plans a{
+	color:black;
+	text-decoration:none;
+}
+
+.pay{
+	color:black;
+	border-color:black;
+	background-color:transparent;
+	font-family:tahoma, arial, serif;
+	font-size:20px;
+	padding:10px;
+	border-radius:20px;
+	margin:10px;
+}
+.pay:hover{
+	color:white;
+	background-color:black;
+	transition-duration:0.2s;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+	width: 2px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background: black;
+}
